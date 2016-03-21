@@ -13,7 +13,7 @@ public class Main {
 		RecordNotepad rn = new RecordNotepad("record " + n);
 
 		n1.addRecord(0, r1);
-		n1.addRecord(1, r2);
+		n1.addRecord(-1, r2);
 		n1.addRecord(2, r3);
 		n1.addRecord(n, rn);
 		n1.showAllRecords();
@@ -28,7 +28,7 @@ public class Main {
 		System.out.println("--------------");
 
 		n1.delRecord(1);
-		n1.delRecord(113);
+		n1.delRecord(50);
 		n1.showAllRecords();
 	}
 }

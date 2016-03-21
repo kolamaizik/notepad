@@ -16,8 +16,13 @@ public class Notepad {
 	 * <p>Add record in notepad</p>
 	 */
 	public void addRecord(int index, RecordNotepad value){
-		if (index < arrRec.length)
+		try {
+			//if (index < arrRec.length)
 			arrRec[index] = value;
+		}
+	    catch (ArrayIndexOutOfBoundsException e) {
+	    	System.out.println("Array is out of Bounds" + e);
+	    }		
 	}
 	
 	/**
@@ -28,8 +33,13 @@ public class Notepad {
 	 * <p>Edit record in notepad</p>
 	 */
 	public void editRecord(int index, RecordNotepad value){
-		if (index < arrRec.length)
+		try {
+		//if (index < arrRec.length)
 			arrRec[index] = value;
+		}
+	    catch (ArrayIndexOutOfBoundsException e) {
+	    	System.out.println("Array is out of Bounds" + e);
+	    }
 	}
 	
 	/**
@@ -39,8 +49,13 @@ public class Notepad {
 	 * <p>Delete record in notepad</p>
 	 */
 	public void delRecord(int index){
-		if (index < arrRec.length)
+		try {
+		//if (index < arrRec.length)
 			arrRec[index] = null;
+		}
+	    catch (ArrayIndexOutOfBoundsException e) {
+	    	System.out.println("Array is out of Bounds" + e);
+	    }
 	}
 	
 	/**
@@ -50,7 +65,13 @@ public class Notepad {
 	 * <p>Shows record in notepad on the index</p>
 	 */
 	public void showRecord(int index){
-		System.out.println(arrRec[index].getRec());
+		try {
+			System.out.println(arrRec[index].getRec());
+			
+		}
+		catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("Array is out of Bounds" + e);
+		}
 	}
 	
 	/**
