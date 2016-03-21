@@ -17,7 +17,6 @@ public class Notepad {
 	 */
 	public void addRecord(int index, RecordNotepad value){
 		try {
-			//if (index < arrRec.length)
 			arrRec[index] = value;
 		}
 	    catch (ArrayIndexOutOfBoundsException e) {
@@ -34,7 +33,6 @@ public class Notepad {
 	 */
 	public void editRecord(int index, RecordNotepad value){
 		try {
-		//if (index < arrRec.length)
 			arrRec[index] = value;
 		}
 	    catch (ArrayIndexOutOfBoundsException e) {
@@ -50,7 +48,6 @@ public class Notepad {
 	 */
 	public void delRecord(int index){
 		try {
-		//if (index < arrRec.length)
 			arrRec[index] = null;
 		}
 	    catch (ArrayIndexOutOfBoundsException e) {
