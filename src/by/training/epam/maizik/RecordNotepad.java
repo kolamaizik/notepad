@@ -25,10 +25,16 @@ public class RecordNotepad {
 		setRec(newRec);
 	}
 
+	/**
+	 * Getter param rec
+	 */
 	public String getRec() {
 		return rec;
 	}
 
+	/**
+	 * Setter param rec
+	 */
 	public void setRec(String rec) {
 		this.rec = rec;
 	}
