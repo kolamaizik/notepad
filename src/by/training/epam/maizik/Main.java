@@ -4,6 +4,7 @@ public class Main {
 
 	public static void main(String[] args){
 		Notepad n1 = new Notepad();
+		//Notepad n2 = new Notepad();
 
 		RecordNotepad r1 = new RecordNotepad("record 1");
 		RecordNotepad r2 = new RecordNotepad("record 2");

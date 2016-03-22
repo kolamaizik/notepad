@@ -21,8 +21,8 @@ public class RecordNotepad {
 	 * 
 	 * <p>Constructor with param</p>
 	 */
-	public RecordNotepad(String newRec){
-		setRec(newRec);
+	public RecordNotepad(String rec){
+		this.rec=rec;
 	}
 
 	/**
