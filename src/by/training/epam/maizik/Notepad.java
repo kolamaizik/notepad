@@ -64,7 +64,6 @@ public class Notepad {
 	public void showRecord(int index){
 		try {
 			System.out.println(arrRec[index].getRec());
-			
 		}
 		catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Array is out of Bounds" + e);
