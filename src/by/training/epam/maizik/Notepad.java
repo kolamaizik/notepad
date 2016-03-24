@@ -13,7 +13,7 @@ public class Notepad {
 	 * @param index - array index
 	 * @param value - records value
 	 * 
-	 * <p>Add record in notepad</p>
+	 * <p>Add record in notepad by index</p>
 	 */
 	public void addRecord(int index, RecordNotepad value){
 		try {
@@ -29,7 +29,7 @@ public class Notepad {
 	 * @param index - array index 
 	 * @param value - records value
 	 * 
-	 * <p>Edit record in notepad</p>
+	 * <p>Edit record in notepad by index</p>
 	 */
 	public void editRecord(int index, RecordNotepad value){
 		try {
@@ -44,7 +44,7 @@ public class Notepad {
 	 * public void delRecord(int index)
 	 * @param index - array index
 	 * 
-	 * <p>Delete record in notepad</p>
+	 * <p>Delete record in notepad by index</p>
 	 */
 	public void delRecord(int index){
 		try {
@@ -59,7 +59,7 @@ public class Notepad {
 	 * public void showRecord(int index)
 	 * @param index - array index
 	 * 
-	 * <p>Shows record in notepad on the index</p>
+	 * <p>Shows record in notepad by index</p>
 	 */
 	public void showRecord(int index){
 		try {
