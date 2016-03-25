@@ -8,6 +8,9 @@ package by.training.epam.maizik;
 public class Notepad {
 	private RecordNotepad arrRec[]=new RecordNotepad[50];
 
+	{
+		System.out.println("Show a message before the launch of the constructor");
+	}
 	/**
 	 * public void addRecord(int index, RecordNotepad value)
 	 * @param index - array index
@@ -63,13 +66,17 @@ public class Notepad {
 	 */
 	public void showRecord(int index){
 		try {
-			System.out.println(arrRec[index].getRec());
+			//System.out.println(arrRec[index].getRec());
+			System.out.println(arrRec[index].toString());
 		}
 		catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Array is out of Bounds" + e);
 		}
 	}
 	
+	public void showRecord(RecordNotepad rec){
+		System.out.println(rec.toString());
+	}
 	/**
 	 * public void showAllRecords()
 	 * 

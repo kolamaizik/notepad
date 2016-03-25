@@ -22,6 +22,7 @@ public class Main {
 
 		n1.editRecord(2, r1);
 		n1.showAllRecords();
+		r1.editRec("new record 1");
 		System.out.println("--------------");
 
 		n1.delRecord(0);
@@ -31,5 +32,11 @@ public class Main {
 		n1.delRecord(1);
 		n1.delRecord(50);
 		n1.showAllRecords();
+		System.out.println("--------------");
+
+		n1.showRecord(r1);
+		r1.editRec("new record 11");
+		n1.showRecord(r1);
+		
 	}
 }

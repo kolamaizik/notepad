@@ -38,4 +38,19 @@ public class RecordNotepad {
 	public void setRec(String rec) {
 		this.rec = rec;
 	}
+
+	@Override
+	public String toString() {
+		return rec;
+	}
+
+	/**
+	 * public void editRec(String newRec)
+	 * @param newRec - records value
+	 * 
+	 * <p>Edit record</p>
+	 */
+	public void editRec(String newRec) {
+		this.rec = newRec;
+	}
 }
