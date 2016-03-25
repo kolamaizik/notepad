@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args){
 		Notepad n1 = new Notepad();
-		//Notepad n2 = new Notepad();
+		Notepad n2 = new Notepad();
 
 		RecordNotepad r1 = new RecordNotepad("record 1");
 		RecordNotepad r2 = new RecordNotepad("record 2");
@@ -35,9 +35,9 @@ public class Main {
 		n1.showAllRecords();
 		System.out.println("--------------");
 
-		n1.showRecord(r1);
+		n2.showRecord(r1);
 		r1.editRec("new record 11");
-		n1.showRecord(r1);
+		n2.showRecord(r1);
 		
 	}
 }
