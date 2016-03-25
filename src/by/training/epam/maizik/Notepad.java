@@ -9,7 +9,7 @@ public class Notepad {
 	private RecordNotepad arrRec[]=new RecordNotepad[50];
 
 	{
-		System.out.println("Show a message before the launch of the constructor");
+		System.out.println("Before run constructor");
 	}
 	/**
 	 * public void addRecord(int index, RecordNotepad value)

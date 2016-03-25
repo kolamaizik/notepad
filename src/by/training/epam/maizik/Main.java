@@ -21,8 +21,8 @@ public class Main {
 		System.out.println("--------------");
 
 		n1.editRecord(2, r1);
+		r1.editRec("new record 1");;
 		n1.showAllRecords();
-		r1.editRec("new record 1");
 		System.out.println("--------------");
 
 		n1.delRecord(0);
