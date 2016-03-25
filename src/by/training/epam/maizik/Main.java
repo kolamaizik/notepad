@@ -14,14 +14,15 @@ public class Main {
 		RecordNotepad rn = new RecordNotepad("record " + n);
 
 		n1.addRecord(0, r1);
-		n1.addRecord(-1, r2);
+		n1.addRecord(1, r2);
 		n1.addRecord(2, r3);
 		n1.addRecord(n, rn);
 		n1.showAllRecords();
 		System.out.println("--------------");
 
 		n1.editRecord(2, r1);
-		r1.editRec("new record 1");;
+		r1.editRec("new record 1");
+		r2.setRec("new record 2");
 		n1.showAllRecords();
 		System.out.println("--------------");
 
