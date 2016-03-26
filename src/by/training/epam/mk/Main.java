@@ -1,4 +1,4 @@
-package by.training.epam.maizik;
+package by.training.epam.mk;
 
 public class Main {
 
